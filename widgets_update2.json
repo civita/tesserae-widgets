@@ -1,0 +1,1173 @@
+{
+  "version": 1,
+  "widgets": [
+    {
+      "id": "afl",
+      "name": "AFL Bundle",
+      "description": "Four AFL widgets on the public Squiggle API (no key). Live ladder, Next Match (guernsey duel + form), Round Fixtures, Last Match (with goals.behinds). Original guernsey art and monogram badges; toggle per widget.",
+      "icon": "ph-football",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "sports"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "extra_screenshot_count": 3,
+      "folders": [
+        "afl_core",
+        "afl_ladder",
+        "afl_next_game",
+        "afl_round",
+        "afl_last_game"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-afl/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "48cc4ee58b2b9ff8d5d93ee417a35b3ad96156197ab838e4f23c7e1a5bdb2978"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-afl"
+    },
+    {
+      "id": "ai_brief",
+      "name": "AI Brief + Scene + Image",
+      "description": "Three data-aware AI widgets sharing one Anthropic + Fal.ai key. ai_brief writes a 1-3 sentence summary (Claude); ai_scene generates a data-reflective image; ai_image is the ambient art widget (heir to fal_image). Token + cost tracking in the AI Core admin page.",
+      "icon": "ph-sparkle",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "ai_core",
+        "ai_brief",
+        "ai_scene",
+        "ai_image"
+      ],
+      "release": {
+        "version": "0.3.3",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-ai-brief/archive/refs/tags/v0.3.3.tar.gz",
+        "sha256": "7bdbe5a26deb6f6e37a10ba26d922cb193834849a8415f4da75098306b92b17c"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-ai-brief"
+    },
+    {
+      "id": "air_traffic",
+      "name": "Air Traffic",
+      "description": "Flights currently overhead at your location via OpenSky Network (free, no key). Shows total count + nearest N flights with callsign, origin country, altitude, and speed.",
+      "icon": "ph-airplane-tilt",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "contributors": [
+        {
+          "name": "Sam",
+          "github": "samphonic"
+        }
+      ],
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "sky_air_traffic"
+      ],
+      "release": {
+        "version": "0.2.1",
+        "tarball_url": "https://github.com/civita/tesserae-widget-air-traffic/archive/refs/tags/v0.2.1.tar.gz",
+        "sha256": "c17932a5e84df924ca059093e7b83d0bdb024e0d6bf03a0cd588f91a39c01fcb"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-air-traffic"
+    },
+    {
+      "id": "apple_album",
+      "name": "iCloud Shared Albums",
+      "description": "Photo carousel from a public iCloud Shared Album link. Single-widget bundle. Uses reverse-engineered Apple Shared Album endpoints, undocumented but stable for ~10 years. No API key needed.",
+      "icon": "ph-cloud-arrow-down",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "picture_apple_album"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-apple-album/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "6863818699ff205d73f9b3200833fe87d380aaf3555e5144b383cc0dc03ee0ef"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-apple-album"
+    },
+    {
+      "id": "auroras",
+      "name": "Auroras",
+      "description": "Six atmospheric gradient themes (veil, deep, rose, flame, arctic, emerald) inspired by the bundled Aurora. Each follows Aurora's 135deg three-stop linear-gradient structure with a different hue range evoking a sky phenomenon.",
+      "icon": "ph-flower-lotus",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "aurora-arctic",
+        "aurora-deep",
+        "aurora-emerald",
+        "aurora-flame",
+        "aurora-rose",
+        "aurora-veil"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-auroras/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "9aaeceaefd167e882016de07e9ca38998d9a14faca3ba941886dffec78b0f3f1"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-auroras"
+    },
+    {
+      "id": "bom_warnings",
+      "name": "BoM Warnings",
+      "description": "Australian Bureau of Meteorology weather warnings by state (severe storms, fire weather, marine, etc). Shows current warnings with type, severity, and headline. No API key.",
+      "icon": "ph-warning",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "weather"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "sky_bom_warnings"
+      ],
+      "release": {
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-bom-warnings/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "4abeb04e27ae901b1ba490d40affe24d2d7430a3a8a96aff75d0884942eefee6"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-bom-warnings"
+    },
+    {
+      "id": "caldav_todo",
+      "name": "CalDAV Todo",
+      "description": "Read-only checklist from your CalDAV / iCal todo lists (Baikal, Radicale, Nextcloud Tasks). Reads VTODO items from the same Calendar Core feeds the calendar widgets use, leads with what needs action, and shows due-date chips, an iCal priority dot, and per-feed colour ticks.",
+      "icon": "ph-list-checks",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "calendar",
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "caldav_todo"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-caldav-todo/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "1139da8780548e3cf2b3de3cb88f6e8782be4a0316e907cf1917ec09f861022e"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-caldav-todo"
+    },
+    {
+      "id": "calendar_schedule",
+      "name": "Calendar, Schedule",
+      "description": "Timeline-rail agenda view: upcoming events grouped by day, with a thin ink rail connecting per-event nodes and a coloured start-time chip carrying the feed accent. Auto-grows 1 to 4 columns until the whole list fits, so titles stay legible on wide e-ink panels without truncating.",
+      "icon": "ph-list-bullets",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "calendar"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg",
+        "md"
+      ],
+      "folders": [
+        "calendar_schedule"
+      ],
+      "release": {
+        "version": "0.4.12",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-calendar-schedule/archive/refs/tags/v0.4.12.tar.gz",
+        "sha256": "e3095725b1e14c2f1f223454b3986b7afef94763ed48b35513793bc5c9936467"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-calendar-schedule"
+    },
+    {
+      "id": "clock_digital",
+      "name": "Clock, Digital",
+      "description": "Digital clock with selectable timezone and seven faces: classic bold type, split-flap flip cards, seven-segment LCD, stacked poster type, outline, dot matrix, and a mono terminal prompt. 12/24-hour, optional seconds, date and label lines, light or dark ink.",
+      "icon": "ph-clock",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "clock",
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "extra_screenshot_count": 6,
+      "folders": [
+        "clock_digital"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-clock-digital/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "06cf8f0edf8d43f399368bd13d1713c628c2d757a25b32dd562bd225ef447c89"
+      },
+      "source": "https://github.com/dmellok/tesserae-clock-digital"
+    },
+    {
+      "id": "clock_extras",
+      "name": "Clock Extras",
+      "description": "Word clock (QLOCKTWO style) and multi-timezone world clocks. 2-widget bundle, no setup beyond a timezone picker.",
+      "icon": "ph-clock-afternoon",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "clock"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "clock_qlock",
+        "clock_world"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-clock-extras/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "276a85abbfaaba51e32f42daf61fd78c5f91c9d18c5b5d5fdd6da42eb21fb5bd"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-clock-extras"
+    },
+    {
+      "id": "community_demo",
+      "name": "Community Demo",
+      "description": "A minimal hello-world widget. Renders a configurable greeting + the current local time. Use it to confirm the marketplace install pipeline works end-to-end on a non-bundled widget.",
+      "icon": "ph-storefront",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "release": {
+        "version": "0.1.2",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-community-demo/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "0da08a4830e1ef4e033092af0218c7777955ca182de1da11b9c044159ad1e9d0"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-community-demo"
+    },
+    {
+      "id": "devref",
+      "name": "Dev Reference Bundle",
+      "description": "Worked example for widget developers. Pairs a _core admin plugin with a display widget that exercises every cell_option type, server.py fetch + blueprint + choices_from, and theme-aware CSS. Install + read the source as a reference.",
+      "icon": "ph-blueprint",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "devref_card",
+        "devref_core",
+        "devref_egress"
+      ],
+      "release": {
+        "version": "0.2.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-devref/archive/refs/tags/v0.2.0.tar.gz",
+        "sha256": "37373d6bbf80288acb8cfdf445a9d2f363d7cac1b7f89d2adadce81d488e442a"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-devref"
+    },
+    {
+      "id": "f1",
+      "name": "Formula 1",
+      "description": "Race weekend timetable, last race podium, next-round countdown with circuit silhouette, and current driver standings. 5-widget bundle. Data from the Jolpica Ergast-compatible F1 API (no key required).",
+      "icon": "ph-flag-checkered",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "sports"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "f1_core",
+        "f1_last_race",
+        "f1_next",
+        "f1_standings_drivers",
+        "f1_weekend"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-f1/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "dafb4769f1855f1a749f4ebae3a0b005e4ca1deafe9fc4cc89ba0ddc62961cc9"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-f1"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "description": "Single-pair FX rate (frankfurter.app), a single stock ticker (free Twelve Data tier), and a single crypto pair (CoinGecko). 3-widget bundle. Some upstreams need a free API key, see the README.",
+      "icon": "ph-currency-circle-dollar",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "finance"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "finance_crypto",
+        "finance_currency",
+        "finance_stock"
+      ],
+      "release": {
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-finance/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "ac553e4d15177952cbb6f63ae2cc8ad5ac0ec876f44001c0731b3c7eeeeaac3a"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-finance"
+    },
+    {
+      "id": "football",
+      "name": "Football Bundle",
+      "description": "Two football widgets on ESPN's public scoreboard + standings APIs. Match (next / last / live for your team) and Table (league standings or World Cup group blocks). Supports World Cup, Champions League, Premier League, La Liga, Bundesliga, Serie A, MLS, A-League.",
+      "icon": "ph-soccer-ball",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "sports"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "extra_screenshot_count": 1,
+      "folders": [
+        "football_core",
+        "football_match",
+        "football_table"
+      ],
+      "release": {
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-football/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "dda746075a562abd00d10ad3b0272e63040fde5c29cdea61db7464e79d0df842"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-football"
+    },
+    {
+      "id": "github",
+      "name": "GitHub Widgets",
+      "description": "14-widget bundle: hero stat widgets (total stars, streak, open PRs, CI status, star growth, activity heatmap, commit cadence) plus the original repo card, PR queue, releases, contributions, CI timeline, and activity feed. Token shared via github_core.",
+      "icon": "ph-github-logo",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "github"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "github_actions",
+        "github_activity",
+        "github_activity_heatmap",
+        "github_ci_status",
+        "github_commit_cadence",
+        "github_contributions",
+        "github_core",
+        "github_pr_count",
+        "github_pr_queue",
+        "github_releases",
+        "github_repo",
+        "github_star_count",
+        "github_star_growth",
+        "github_streak"
+      ],
+      "release": {
+        "version": "0.3.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-github/archive/refs/tags/v0.3.0.tar.gz",
+        "sha256": "cd2dc176b8736a8acf677ad41d0107e73b2455b738812729d46a6ce61eb666a3"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-github",
+      "extra_screenshot_count": 6
+    },
+    {
+      "id": "glances",
+      "name": "Glances",
+      "description": "Host stats tile + summary card for a glances API server. CPU/RAM/disk gauges, host state pill, uptime. For users running a homelab box.",
+      "icon": "ph-gauge",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "glances_core",
+        "glances_status"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-glances/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "80a47df119072b56f96250e6b38c260d1537c948d123273befb717128a2e6ce3"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-glances"
+    },
+    {
+      "id": "gradient",
+      "name": "Gradient",
+      "description": "Fourteen linear-gradient surface themes that used to ship bundled with Tesserae (sunset, aurora, twilight, spectrum, coral, mist, sand, sage, linen, mauve, marble, glacier, honey, pearl). Pairs especially well with 7-colour Spectra panels.",
+      "icon": "ph-rainbow",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "aurora",
+        "coral",
+        "glacier",
+        "honey",
+        "linen",
+        "marble",
+        "mauve",
+        "mist",
+        "pearl",
+        "sage",
+        "sand",
+        "spectrum",
+        "sunset",
+        "twilight"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-gradient/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "fe1ce5bc625b91bc6e5b0bf00719539df4eb872bb18a13bbafac6a8abfa72b06"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-gradient"
+    },
+    {
+      "id": "muted",
+      "name": "Muted",
+      "description": "Ten mid-tone coloured-canvas themes (brick, saffron, olive, pine, lake, storm, mulberry, wine, terra, graphite). One step back from Vivid: meaningfully coloured canvases without crossing into max saturation.",
+      "icon": "ph-drop",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "muted-brick",
+        "muted-graphite",
+        "muted-lake",
+        "muted-mulberry",
+        "muted-olive",
+        "muted-pine",
+        "muted-saffron",
+        "muted-storm",
+        "muted-terra",
+        "muted-wine"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-muted/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "c336d113070d9d81e67791aaf6c92961cdc1a036725b91b9d3c59cfea56db504"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-muted"
+    },
+    {
+      "id": "news_hackaday",
+      "name": "News, Hackaday",
+      "description": "Latest articles from Hackaday, the hardware-hacking publication, with the Jolly Wrencher in the header. Pick the hero layout for a featured image up top, or the list layout for a tighter run of headlines. Pure RSS, no API key.",
+      "icon": "ph-skull",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "news"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "news_hackaday"
+      ],
+      "release": {
+        "version": "0.1.3",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-hackaday/archive/refs/tags/v0.1.3.tar.gz",
+        "sha256": "2012f5a0f02b072759350af8541b84e60cdadd7adf2aaf536bdd5bb0fab71d9d"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-hackaday"
+    },
+    {
+      "id": "octoprint",
+      "name": "OctoPrint",
+      "description": "Print status tile for an OctoPrint server: current progress, ETA, hotend/bed temperature, and print-in-progress state. For users with a 3D printer running OctoPrint.",
+      "icon": "ph-cube",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "octoprint_status"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-octoprint/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "c36faa8350a834e6b5457fc07b64f45a3866cc70dad498a6233ff6a067e162b0"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-octoprint"
+    },
+    {
+      "id": "paperlesspaper_art",
+      "name": "Paperlesspaper Art",
+      "description": "Full-bleed widget that paints a curated public-domain or Creative Commons artwork on every render, pulled from the paperlesspaper-art catalog (Met Museum, Art Institute of Chicago, Wikimedia Commons, SVG Repo). Optional artist + title caption overlay.",
+      "icon": "ph-frame-corners",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg",
+        "md"
+      ],
+      "folders": [
+        "paperlesspaper_art"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-paperlesspaper-art/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "37cdc25d8eff6f78407efac3cfad3484143cad4b9ad2a8f0e57fe70a015ed148"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-paperlesspaper-art"
+    },
+    {
+      "id": "picture_immich",
+      "name": "Picture, Immich",
+      "description": "Full-bleed Immich photos with multi-library admin. Pick a library + mode per cell: today's memory, random asset, or random from album. API keys encrypted at rest. Cascades through Immich's thumbnail derivatives, transcodes HEIC server-side.",
+      "icon": "ph-images-square",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "extra_screenshot_count": 0,
+      "folders": [
+        "picture_immich"
+      ],
+      "release": {
+        "version": "0.1.3",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-immich/archive/refs/tags/v0.1.3.tar.gz",
+        "sha256": "d1546cdd6f91fdd3b18895aaf577197628a3ea0f70b3c826b6b941c3a8fea0ed"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-immich"
+    },
+    {
+      "id": "pigment",
+      "name": "Pigment",
+      "description": "Ten saturated feature-colour-led light themes (rust, amber, fern, teal, azure, indigo, orchid, rose, grape, ink). More punch than Tonal, less canvas-as-feature than Vivid; one consistent supporting accent palette across the pack.",
+      "icon": "ph-eyedropper",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "pigment-amber",
+        "pigment-azure",
+        "pigment-fern",
+        "pigment-grape",
+        "pigment-indigo",
+        "pigment-ink",
+        "pigment-orchid",
+        "pigment-rose",
+        "pigment-rust",
+        "pigment-teal"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-pigment/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "052fbbae33b7d9041b5d400a8001506eeb27d6579a23b4bab8f762099b4f9119"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-pigment"
+    },
+    {
+      "id": "posthog_metric",
+      "name": "PostHog Metric",
+      "description": "Hero number for any PostHog trends metric — pick the event, math, date range, and an optional property filter to point it at your own project and site. Optional area sparkline or bars, a trend chip, and peak/avg stats. Bring your own PostHog API key.",
+      "icon": "ph-chart-line-up",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "extra_screenshot_count": 1,
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-posthog/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "45354fb88ca5a9ff7a25505bb9ca82e509165054983fc16052c56973c092076b"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-posthog"
+    },
+    {
+      "id": "public_holiday_countdown",
+      "name": "Public Holiday Countdown",
+      "description": "Countdown to the next public holiday, with a short upcoming list.",
+      "icon": "ph-calendar-star",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "calendar",
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "release": {
+        "version": "0.1.3",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-public-holiday-countdown/archive/refs/tags/v0.1.3.tar.gz",
+        "sha256": "52fc927ae0e5277261f7da2b5798354ce5c322193c2f5da658b757eaa7e6c3ee"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-public-holiday-countdown"
+    },
+    {
+      "id": "recipes",
+      "name": "Recipes",
+      "description": "Pulls recipes from any schema.org site (RecipeTin Eats, BBC Good Food, NYT Cooking, etc.). Paste URLs or RSS feeds per cell; widget rotates through them with hero image, title, prep / cook / total times, ingredients, instructions, and a QR code back to the source.",
+      "icon": "ph-cooking-pot",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-recipes/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "940254943e02e776d1716beff8ec5d4152bf0bfc0a18ac661e2c23c02fe9034a"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-recipes"
+    },
+    {
+      "id": "sky",
+      "name": "Sky",
+      "description": "Aurora alert score (NOAA SWPC) and current moon phase. Two-widget celestial bundle. No API keys.",
+      "icon": "ph-rainbow",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "weather"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "sky_aurora",
+        "sky_moon"
+      ],
+      "release": {
+        "version": "0.2.2",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-sky/archive/refs/tags/v0.2.2.tar.gz",
+        "sha256": "f4600a5d00816293d3c347b720b335b23a03a57d4b048b395be566264cb55b04"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-sky"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify Widgets",
+      "description": "Now-playing, queue, album art, and top tracks/artists/albums (4 weeks to all time), plus a non-placeable service that feeds the Spotify Web API to AI canvas code elements. Shared OAuth via spotify_core. Needs a free Spotify Developer app; README has setup.",
+      "icon": "ph-spotify-logo",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "spotify_core",
+        "spotify_now_playing",
+        "spotify_queue",
+        "spotify_album_art",
+        "spotify_top",
+        "spotify_service"
+      ],
+      "release": {
+        "version": "0.4.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-spotify/archive/refs/tags/v0.4.0.tar.gz",
+        "sha256": "cc169db1c73eefad1eef92f4db8b66b42cd0900650e4b5daaebe338f4bc99519"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-spotify"
+    },
+    {
+      "id": "tonal",
+      "name": "Tonal",
+      "description": "Six medium-vivid, feature-colour-led light themes (slate, clay, moss, plum, harbour, copper). Each has a gently tinted off-white canvas and a coherent 6-accent palette led by its namesake colour. Theme pack: installs all six.",
+      "icon": "ph-palette",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "tonal-clay",
+        "tonal-copper",
+        "tonal-harbour",
+        "tonal-moss",
+        "tonal-plum",
+        "tonal-slate"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-tonal/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "3cbbb0b17d7fac59468a44cc243dc174c716bf3753b86ea369ec6e79adae2d34"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-tonal"
+    },
+    {
+      "id": "transport",
+      "name": "Public Transport",
+      "description": "Next departures for a Melbourne PTV stop. Official PTV API v3 (free key). Currently Melbourne-only; PRs welcome to add other regions.",
+      "icon": "ph-tram",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "transit"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "public_transport_times"
+      ],
+      "release": {
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-transport/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "f418c1cb8deab9953848b64b1f5e2da7d425d802443045d641be79aa1a5b01b4"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-transport"
+    },
+    {
+      "id": "transport_belgium",
+      "name": "Belgian Trains (iRail)",
+      "description": "Next NMBS/SNCB train departures or arrivals for a Belgian station. Live data via the open iRail API. Pick a station name, or an iRail station ID such as BE.NMBS.008892007, per cell.",
+      "icon": "ph-train",
+      "author": {
+        "name": "Jonas L",
+        "github": "JayJay1989"
+      },
+      "tags": [
+        "transit"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": false,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "public_transport_times_belgium"
+      ],
+      "release": {
+        "version": "0.2.0",
+        "tarball_url": "https://github.com/JayJay1989/tesserae-transport-belgium/archive/refs/tags/v0.2.0.tar.gz",
+        "sha256": "fd3abe940735b5ded43c5602244a47bb1c970e059df58eb9ceb69b24ab4f8f2c"
+      },
+      "source": "https://github.com/JayJay1989/tesserae-transport-belgium"
+    },
+    {
+      "id": "trmnl_proxy",
+      "name": "TRMNL proxy",
+      "description": "Render the next-up screen from your TRMNL account on a Tesserae cell. Paste a device API key, paint whatever playlist is scheduled. The token never leaves the host: Tesserae fetches the envelope from /api/display and proxies the image bytes through itself.",
+      "icon": "ph-monitor-play",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "trmnl_proxy"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-trmnl-proxy/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "95400f9345f177c865176e91189729ae38702a986ac08a510ca8ac8e3a2a6fb6"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-trmnl-proxy"
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "description": "Rotating Unsplash photo tile keyed off a search term or collection. Free API key (50 requests/hr is plenty for an hourly e-ink rotation).",
+      "icon": "ph-images",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "picture_unsplash"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-unsplash/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "b79c3bf2cc70d79959c875fe53683ddd0f8b89d48108a41b54a199ecab85691a"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-unsplash"
+    },
+    {
+      "id": "vivid",
+      "name": "Vivid",
+      "description": "Fifteen saturated single-colour themes that used to ship bundled with Tesserae (tangerine, lime, cobalt, magenta, emerald, crimson, cyan, aubergine, mustard, teal-pop, hot-pink, lavender-pop, olive-pop, burgundy, forest).",
+      "icon": "ph-paint-bucket",
+      "author": {
+        "name": "dmellok",
+        "github": "dmellok"
+      },
+      "tags": [
+        "utility"
+      ],
+      "kind": "theme",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "aubergine",
+        "burgundy",
+        "cobalt",
+        "crimson",
+        "cyan",
+        "emerald",
+        "forest",
+        "hot-pink",
+        "lavender-pop",
+        "lime",
+        "magenta",
+        "mustard",
+        "olive-pop",
+        "tangerine",
+        "teal-pop"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-theme-vivid/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "8fdd702ffd8d751b9ad1bb437473bb652ae47b31adc95d7f7269a3b85142baa9"
+      },
+      "source": "https://github.com/dmellok/tesserae-theme-vivid"
+    },
+    {
+      "id": "weather_extras",
+      "name": "Weather Extras",
+      "description": "Air quality, pollen count, and detailed wind widgets. Data from Open-Meteo (no key required). For users who want more than the bundled weather_now / weather_forecast cards.",
+      "icon": "ph-wind",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "weather"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "weather_air_quality",
+        "weather_pollen_count",
+        "weather_wind"
+      ],
+      "release": {
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-weather-extras/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "c800d447f530877361eeac517068e21388324f1e9d779022c7b837ed3d6ec345"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-weather-extras"
+    },
+    {
+      "id": "youtube_channel",
+      "name": "YouTube, Channel Health",
+      "description": "One YouTube channel's health at a glance — subscribers with 7/30-day delta, latest video's views vs the previous upload, 30-day view momentum, likes + comments, and the top video this month. Bring your own free YouTube Data API key.",
+      "icon": "ph-youtube-logo",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-youtube-channel/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "1335ead47cda79c71412a45c2e7fa4768bd064296aa24c0e9776140ba9c030ba"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-youtube-channel"
+    },
+    {
+      "id": "fractal_tile",
+      "name": "Fractal Tile",
+      "description": "Full-bleed generative fractal art: fractal tree, Pythagoras tree, Sierpinski, Koch, dragon curve and Barnsley fern in seven colourful palettes. Reshuffles each render, or pin a fractal, palette and daily-stable seed.",
+      "icon": "ph-tree",
+      "author": {
+        "name": "Kayden D'Mello",
+        "github": "dmellok"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": true,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "extra_screenshot_count": 5,
+      "folders": [
+        "fractal_tile"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-fractal-tile/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "4ec9add65becdd4a5f23e7c4ebe55be1627e77c1048abe10352065d4b3d372bf"
+      },
+      "source": "https://github.com/dmellok/tesserae-widget-fractal-tile"
+    }
+  ]
+}
