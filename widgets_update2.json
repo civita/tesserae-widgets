@@ -95,9 +95,9 @@
         "sky_air_traffic"
       ],
       "release": {
-        "version": "0.2.4",
-        "tarball_url": "https://github.com/civita/tesserae-widget-air-traffic/archive/refs/tags/v0.2.4.tar.gz",
-        "sha256": "65a0ef74c98d45e017d1e7e6543159125ffcb35e87e2ba8da78cfc1407109013"
+        "version": "0.2.6",
+        "tarball_url": "https://github.com/civita/tesserae-widget-air-traffic/archive/refs/tags/v0.2.6.tar.gz",
+        "sha256": "6b73125909c5405bbc83f84181196631be4eab4333c3e026c0f99d523b24527b"
       },
       "source": "https://github.com/dmellok/tesserae-widget-air-traffic"
     },
