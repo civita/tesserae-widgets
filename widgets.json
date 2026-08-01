@@ -96,8 +96,8 @@
       ],
       "release": {
         "version": "0.2.0",
-        "tarball_url": "https://github.com/dmellok/tesserae-widget-air-traffic/archive/refs/tags/v0.2.0.tar.gz",
-        "sha256": "e055cd261a9e9d92c978ec9ce9920f367f3e9b770aca382b0f895313099df8e7"
+        "tarball_url": "https://github.com/civita/tesserae-widget-air-traffic/archive/refs/tags/v0.2.0.tar.gz",
+        "sha256": "BBFCCEFB43216837E0E1F26E11B28AA3579B33D898EE9240A99E007535A2EB6B"
       },
       "source": "https://github.com/dmellok/tesserae-widget-air-traffic"
     },
